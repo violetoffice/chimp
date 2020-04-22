@@ -5,6 +5,7 @@
   font-weight: inherit;
   font-family: inherit;
   font-style: inherit;
+  font-size: 100%;
   margin: 0;
   padding: 0;
   border: 0;
@@ -12,27 +13,21 @@
   box-sizing: border-box;
 }
 
-html, body {
-  /*height: 100%;*/
-  font-family: "Helvetica Neue", Helvetica, sans-serif;
-  font-size: 38px;
-  background-color: black;
-  color: white;
-  font-weight: 400;
-}
-
 html {
   scroll-behavior: smooth;
   scroll-snap-type: y mandatory;
 }
 
-a{
+html, body {
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 36px;
+  background-color: black;
   color: white;
+  font-weight: 400;
 }
 
-h1, h2, h3, p{
-  font-size: 1rem;
-  line-height: 1.25;
+a{
+  color: white;
 }
 
 .fail {
@@ -89,7 +84,7 @@ h1, h2, h3, p{
   position: absolute;
   top: 0;
   font-size: 0.5rem;
-  margin: 0.5rem;
+  margin: 0.25rem;
   width: 1rem;
   height: 1rem;
   border: 3px solid white;
@@ -109,7 +104,7 @@ footer h1{
 
 footer{
   scroll-snap-align: end;
-  padding: 1rem;
+  padding: 0.5rem;
   width: 100%;
   background: #242424;
 }
