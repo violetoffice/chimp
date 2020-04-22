@@ -62,8 +62,9 @@ h1, h2, h3, p{
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   color: white;
-  padding: 0.3em 0.6em;
-  /*outline: 1px solid pink;*/
+  width: 1.75rem;
+  text-align: center;
+  padding: 0.3em 0;
 }
 
 .mask .number {
@@ -71,7 +72,6 @@ h1, h2, h3, p{
 }
 
 .mask .number:before {
-  /*color: white;*/
   content: "";
   width: 100%;
   padding-bottom: 100%;
@@ -79,7 +79,6 @@ h1, h2, h3, p{
   background: #ededed;
   border-radius: 50%;
   position: absolute;
-  /*border: 2px solid ;*/
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
