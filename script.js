@@ -40,6 +40,7 @@ function getRandomInt(min, max) {
 }
 
 board.addEventListener("click", e => {
+  if (document.body.classList.contains("fail")) return;
   if (!e.target.classList.contains("number")) return;
   let clickedNum = Number(e.target.innerHTML);
 
